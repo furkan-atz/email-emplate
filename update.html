@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Template</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f3f3f3;
-            font-family: Arial, sans-serif;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Template</title>
+        <style>
         table {
             border-spacing: 0;
             width: 100%;
             max-width: 700px; /* Set the width to 700px */
             margin: 0 auto;
-            background-color: #ffffff;
+           
         }
         td {
             padding: 0;
         }
         img {
             border: 0;
-            display: block;
+            
         }
         .header {
             background-color: white;
@@ -35,17 +29,12 @@
             margin: 0;
             font-size: 24px;
         }
-        .main-content {
-            padding: 0 0px 0px 30px;
-            max-width: 470px;
-        }
         .main-content h2 {
             color: #1E73BE;
             font-size: 28px;
             margin-bottom: 20px;
         }
         .main-content p {
-            width: 470px;
             font-size: 16px;
             line-height: 1.6;
             color: #333333;
@@ -54,7 +43,7 @@
             font-size: 18px;
         }
         .image-container {
-            max-width: 225px;
+            max-width: 220px;
             margin: 20px 0;
             text-align: right; /* Change image alignment to right */
         }
@@ -65,16 +54,6 @@
         }
         .main-content p strong {
             font-size: 18px;
-        }
-        .image-container {
-            max-width: 225px;
-            margin: 20px 0;
-            text-align: right;
-        }
-        .image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;  
         }
         .blue-box {
             background-color: #0091F7;
@@ -94,314 +73,627 @@
             font-size: 16px;
             margin-right: 20px;
         }
+        @media only screen and (max-width: 481px) {
+            body{
+                max-width: 430px;
+            }
+            table{
+                max-width: 430px;
+            }
+            .blue-box {
+            height: 410.5px;
+            margin-left:-100px;
+        }
+        .blue-box-content {
+            padding: 10px;
+        }
+        .blue-box-content h1 {
+            font-size: 24px;
+        }
+        .blue-box-content p {
+            font-size: 14px;
+            margin-right:10px;
+            margin-left: 80px;
+             margin-top: 10px;
+        }
+
+        h1{
+            padding: 0;
+
+        }
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        .bg{
+            width: 100%;
+            height: 170px;
+            background-size: 100% 100%;
+        }
+        .bg img{
+            width: 100px;
+            height: 100px; 
+        }
+
+
+        }
     </style>
-</head>
-<body style="margin: 0; padding: 0; background-color: #f3f3f3; font-family: Arial, sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" >
-        <tr>
-            <td align="center">
-                <!-- Main Table -->
-                <table width="700" cellpadding="0" cellspacing="0" border="0" width: 100%; max-width: 700px;">
-                    <!-- Header Section -->
-                    <tr>
-                        <td align="center" style="padding: 20px;">
-                            <h1 style="color: #0B68A5; margin: 0; font-size: 24px;">Transformative Solutions For</h1>
-                            <h1 style="color: #007FD8; margin: 0; font-size: 24px;">[Client Company Name]</h1>
-                        </td>
-                    </tr>
-                    
-                    <!-- Content Section -->
-                    <tr>
-                        <td >
-                            <table cellpadding="0" cellspacing="0" role="presentation">  
-                                <tr>
-                                    <td class="main-content" > 
-                                        <p><strong>Dear [Client Name],</strong></p>
-                                        <p style="margin-top: -8px; width: 490px;">Imagine transforming [Client Company Name] into the go-to furniture destination in Los Angeles, with a digital presence that not only attracts but captivates your target audience. We've identified key challenges that might be holding you back, and we're excited to offer solutions that could redefine your business's success.</p>
-                                    </td>
-                                    <td >
-                                        <div class="image-container" style=" clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%, 39% 26%);height: 200px;">
-                                            <img src="./image/152fac921069255fccc912035b28a555.jfif" alt="Decorative Image">
-                                        </div>
-                                    </td>
-                        
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
+    </head>
+    <body
+        style="margin: 0; padding: 0;  font-family: Arial, sans-serif;  background: #FFFFFF;">
+        <table cellpadding="0" cellspacing="0" border="0" width: 100%;
+            style="max-width: 700px;">
+            <tr>
+                <td align="center">
+                    <!-- Main Table -->
+                    <table cellpadding="0" cellspacing="0" border="0" width:
+                        100%;>
+                        <!-- Header Section -->
+                        <tr>
+                            <td align="center" style="padding: 20px;">
+                                <h1
+                                    style="color: #0B68A5; margin: 0; font-size: 24px;">Transformative
+                                    Solutions For</h1>
+                                <h1
+                                    style="color: #007FD8; margin: 0; font-size: 24px;">[Client
+                                    Company Name]</h1>
+                            </td>
+                        </tr>
 
-                    <!-- Image and Roadblocks Section -->
-                    <tr>
-                        <td style="padding: 0;">
-                            <table cellpadding="0" cellspacing="0" role="presentation">  
-                                <tr>
-                                    <td>
-                                        <div class="image-container" style="width: 249px; height: 372.5px; clip-path: polygon(0 0, 61% 0, 100% 100%, 0 100%);">
-                                            <img src="./image/3d62d784c51133ad845b89d2f075333f.png" alt="Decorative Image">
-                                        </div>
-                                    </td>
-                                    <td> 
-                                        <table class="blue-box">
-                                            <tr class="blue-box-content">
-                                                <td>
-                                                    <h1 style="margin-left: 100px;">The Roadblocks:</h1>
-                                                    <p style="margin-left: 100px; margin-top: 40px;"><strong>1.Invisible in Search Engines?</strong> If your customers can’t find you online, your competitors are getting their business.</p>
-                                                    <p style="margin-left: 125px; margin-top: 40px;"><strong>2.Website Not Converting?</strong> A slow, outdated website might be costing you sales and turning potential customers away.</p>
-                                                    <p style="margin-left: 150px; margin-top: 40px;"><strong>3.Struggling to Engage?</strong> In the digital age, you need more than just a presence—you need to connect and resonate with your audience.</p>
-                                                    <p style="margin-left: 175px; margin-top: 40px;"><strong> 4.Lackluster Visuals?</strong> In a visual industry like furniture, subpar imagery can dull even the most beautiful designs.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    
-                                   
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
+                        <!-- Content Section -->
+                        <tr>
+                            <td>
+                                <table cellpadding="0" cellspacing="0"
+                                    role="presentation">
+                                    <tr>
+                                        <td class="main-content"
+                                            style="max-width: 490px; padding: 0 0px 0px 30px;">
+                                            <p><strong>Dear [Client
+                                                    Name],</strong></p>
+                                            <p>Imagine transforming [Client
+                                                Company Name] into the go-to
+                                                furniture destination in Los
+                                                Angeles, with a digital presence
+                                                that not only attracts but
+                                                captivates your target audience.
+                                                We've identified key challenges
+                                                that might be holding you back,
+                                                and we're excited to offer
+                                                solutions that could redefine
+                                                your business's success.</p>
+                                        </td>
+                                        <td>
+                                            <div class="image-container"
+                                                style=" clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%, 39% 26%);height: 200px;">
+                                                <img
+                                                    src="https://i.ibb.co.com/mvrQ64V/152fac921069255fccc912035b28a555.jpg"
+                                                    alt="Decorative Image">
+                                            </div>
+                                        </td>
 
-                    <!-- Competitors Section -->
-                    <tr>
-                        <td style="padding: 20px;">
-                            <h1 style="font-size: 24px; color: #0073e6; margin: 0; text-align: center;">Our <span style="border-bottom: 4px solid  #FBC935;">Competitors</span></h1>
-                        </td>
-                    </tr>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
 
-                    <!-- Competitor AI Section -->
-                    <tr>
-                        <td style="padding: 20px;">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td width="50%" align="center">
-                                        <img src="./image/33aaac2acecb1fa4cd17ea7bb0f1f686.png" alt="Competitor AI Website" style="width: 100%; max-width: 310px; border: 1px solid #dddddd; border-radius: 15px;">
-                                    </td>
-                                    <td width="50%" align="center">
-                                        <img src="./image/33aaac2acecb1fa4cd17ea7bb0f1f686.png" alt="Competitor BI Website" style="width: 100%; max-width: 310px; border: 1px solid #dddddd; border-radius: 15px;">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="50%" style="padding-left: 20px;">
-                                        <h2 style="font-size: 18px;  margin-bottom: 10px;">Competitor AI’s SEO Blind Spot</h2>
-                                        <p style="font-size: 14px; color: #555555; line-height: 1.6;">
-                                            Despite their high rankings, Competitor AI is missing critical long-tail keywords that potential customers are searching for. This is a golden opportunity for you to capture untapped markets.
-                                        </p>
-                                        <ol style="font-size: 14px; color: #555555;">
-                                            <li>A</li>
-                                            <li>A</li>
-                                            <li>A</li>
-                                        </ol>
-                                    </td>
-                                    <td width="50%" style="padding-left: 20px;">
-                                        <h2 style="font-size: 18px;  margin-bottom: 10px;">Competitor BI’s Clunky Website</h2>
-                                        <p style="font-size: 14px; color: #555555; line-height: 1.6;">
-                                            While Competitor BI has a visually appealing website, its slow load times and outdated mobile optimization are driving customers away. Optimizing can help you attract these customers.
-                                        </p>
-                                        <ol style="font-size: 14px; color: #555555;">
-                                            <li>A</li>
-                                            <li>A</li>
-                                            <li>A</li>
-                                        </ol>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: center;">
-                                        <p >Example :</p>
-                                        <ol style="font-size: 14px; color: #555555; text-align: center; list-style-position: inside; ">
-                                            <li>A</li>
-                                            <li>A</li>
-                                            <li>A</li>
-                                        </ol>
+                        <!-- Image and Roadblocks Section -->
+                        <tr>
+                            <td style="padding: 0;">
+                                <table cellpadding="0" cellspacing="0"
+                                    role="presentation">
+                                    <tr>
+                                        <td>
+                                            <div class="image-container"
+                                                style="max-width: 249px; height: 372.5px; clip-path: polygon(0 0, 61% 0, 100% 100%, 0 100%);">
+                                                <img
+                                                    src="https://i.ibb.co.com/NWkMMq0/Vector-13.png"
+                                                    alt="Decorative Image"
+                                                    style="width: 100%; height: 100%; object-fit: cover;">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <table class="blue-box">
+                                                <tr class="blue-box-content">
+                                                    <td>
+                                                        <h1
+                                                            style="margin-left: 100px;">The
+                                                            Roadblocks:</h1>
+                                                        <p
+                                                            style="margin-left: 100px; margin-top: 40px;"><strong>1.Invisible
+                                                                in Search
+                                                                Engines?</strong>
+                                                            If your customers
+                                                            can’t find you
+                                                            online, your
+                                                            competitors are
+                                                            getting their
+                                                            business.</p>
+                                                        <p
+                                                            style="margin-left: 125px; margin-top: 40px;"><strong>2.Website
+                                                                Not
+                                                                Converting?</strong>
+                                                            A slow, outdated
+                                                            website might be
+                                                            costing you sales
+                                                            and turning
+                                                            potential customers
+                                                            away.</p>
+                                                        <p
+                                                            style="margin-left: 150px; margin-top: 40px;"><strong>3.Struggling
+                                                                to
+                                                                Engage?</strong>
+                                                            In the digital age,
+                                                            you need more than
+                                                            just a presence—you
+                                                            need to connect and
+                                                            resonate with your
+                                                            audience.</p>
+                                                        <p
+                                                            style="margin-left: 175px; margin-top: 40px;"><strong>
+                                                                4.Lackluster
+                                                                Visuals?</strong>
+                                                            In a visual industry
+                                                            like furniture,
+                                                            subpar imagery can
+                                                            dull even the most
+                                                            beautiful
+                                                            designs.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
 
-                                    </td>
-                                </tr>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
 
-                            </table>
-                        </td>
-                    </tr>
+                        <!-- Competitors Section -->
+                        <tr>
+                            <td style="padding: 20px;">
+                                <h1
+                                    style="font-size: 24px; color: #0073e6; margin: 0; text-align: center;">Our
+                                    <span
+                                        style="border-bottom: 4px solid  #FBC935;">Competitors</span></h1>
+                            </td>
+                        </tr>
 
-                    <!-- Call to Action Section -->
-                    <tr>
-                        <td align="center">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td align="center">
-                                        <table cellpadding="0" cellspacing="0" border="0" style=" width: 100%; max-width: 700px;">
-                                            
-                                            <!-- Header Section -->
-                                            <tr>
-                                                <td align="center">
-                                                    <h1 style="color: #007FD8; margin: 0; font-size: 26px;">Our Game-Changing <span style="border-bottom: 4px solid #FBC935;">Solutions</span></h1>
-                                                </td>
-                                            </tr>
-                    
-                                            <!-- First Solution Block (SEO Mastery - Image Left) -->
-                                            <tr >
-                                                <td >
-                                                    <table width="100%"  cellpadding="0" cellspacing="0" border="0" style="
-                                                        height: 275px; background-image: url('./image/Vector\ 19.png'); background-size: cover; background-position: center; ">
-                                                        <tr style="margin-bottom: 50px;">
-                                                            <td width="30%" align="center" style="padding: 10px;">
-                                                                <img src="./image/56111faf042535e07c88ca01f9ab540c.jfif" alt="SEO Icon" style="border-radius: 50%; width: 155px; height: 155px; margin: -80px -35px 0 0;">
-                                                            </td>
-                                                            <td width="70%" style="padding-left: 20px;">
-                                                                <h2 style=" font-size: 20px; margin: 0;">SEO Mastery</h2>
-                                                                <p style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-right: 20px; text-align: justify;" >
-                                                                    We'll propel your website to the top of search engine results, ensuring that when potential customers search for furniture in Los Angeles, they find you.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                    
-                                            <!-- Second Solution Block (Website Overhaul - Image Right) -->
-                                            <tr>
-                                                <td>
-                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="
-                                                        height: 275px; background-image: url('./image/Vector\ 20.png'); background-size: cover; background-position: center;">
-                                                        <tr style="margin-bottom: 50px;">
-                                                            <td width="70%" style="padding-right: 20px;">
-                                                                <h2 style=" font-size: 20px; margin: 0; padding-left: 20px;">Website Overhaul</h2>
-                                                                <p style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-left: 20px; text-align: justify;">
-                                                                    Say goodbye to sluggish load times and outdated designs. We'll create a fast, stunning, and user-friendly site that turns visitors into loyal customers.
-                                                                </p>
-                                                            </td>
-                                                            <td width="30%" align="center" style="padding: 10px;">
-                                                                <img src="./image/56d5d66edd710e393e8417ce22cb395e.jfif" alt="Website Overhaul Icon" style="border-radius: 50%; width: 155px; height: 155px; margin: -90px 0 0 -30px;">
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                    
-                                            <!-- Third Solution Block (Engagement-Driven Marketing - Image Left) -->
-                                            <tr>
-                                                <td>
-                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="
-                                                        height: 275px; background-image: url('./image/Vector\ 19.png'); background-size: cover; background-position: center;">
-                                                        <tr>
-                                                            <td width="30%" align="center" style="padding: 10px;">
-                                                                <img src="./image/8a560ba0703fc4ed13728fa0091e8996.jfif" alt="Engagement Icon" style="border-radius: 50%; width: 155px; height: 155px; margin: -80px -35px 0 0;">
-                                                            </td>
-                                                            <td width="70%" style="padding-left: 20px;">
-                                                                <h2 style=" font-size: 20px; margin: 0;">Engagement-Driven Marketing</h2>
-                                                                <p style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-right: 20px; text-align: justify;">
-                                                                    We'll craft digital marketing campaigns that don't just reach your audience—they move them to act.
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                    
-                                            <!-- Fourth Solution Block (Stunning Visuals - Image Right) -->
-                                            <tr>
-                                                <td>
-                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0"  style="
-                                                        height: 275px; background-image: url('./image/Vector\ 20.png'); background-size: cover; background-position: center;">
-                                                        <tr>
-                                                            <td width="70%" style="padding-right: 20px;">
-                                                                <h2 style=" font-size: 20px; margin: 0; padding-left: 20px;">Stunning Visuals</h2>
-                                                                <p style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-left: 20px; text-align: justify;">
-                                                                    Our graphics team will elevate your product imagery, showcasing your furniture in a way that's impossible to ignore.
-                                                                </p>
-                                                            </td>
-                                                            <td width="30%" align="center" style="padding: 10px;">
-                                                                <img src="./image/b23719eafd408d3c9e83120989aaf777.jfif" alt="Visuals Icon" style="border-radius: 50%; width: 155px; height: 155px; margin: -90px 0 0 -30px;">
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                    
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    
+                        <!-- Competitor AI Section -->
+                        <tr>
+                            <td style="padding: 20px;">
+                                <table width="100%" cellpadding="0"
+                                    cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="50%" align="center">
+                                            <img
+                                                src="https://i.ibb.co.com/Tt6CkW7/33aaac2acecb1fa4cd17ea7bb0f1f686.png"
+                                                alt="Competitor AI Website"
+                                                style="width: 100%; max-width: 310px; border: 1px solid #dddddd; border-radius: 15px;">
+                                        </td>
+                                        <td width="50%" align="center">
+                                            <img
+                                                src="https://i.ibb.co.com/Tt6CkW7/33aaac2acecb1fa4cd17ea7bb0f1f686.png"
+                                                alt="Competitor BI Website"
+                                                style="width: 100%; max-width: 310px; border: 1px solid #dddddd; border-radius: 15px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%"
+                                            style="padding-left: 20px;">
+                                            <h2
+                                                style="font-size: 18px;  margin-bottom: 10px;">Competitor
+                                                AI’s SEO Blind Spot</h2>
+                                            <p
+                                                style="font-size: 14px; color: #555555; line-height: 1.6;">
+                                                Despite their high rankings,
+                                                Competitor AI is missing
+                                                critical long-tail keywords that
+                                                potential customers are
+                                                searching for. This is a golden
+                                                opportunity for you to capture
+                                                untapped markets.
+                                            </p>
+                                            <ol
+                                                style="font-size: 14px; color: #555555;">
+                                                <li>A</li>
+                                                <li>A</li>
+                                                <li>A</li>
+                                            </ol>
+                                        </td>
+                                        <td width="50%"
+                                            style="padding-left: 20px;">
+                                            <h2
+                                                style="font-size: 18px;  margin-bottom: 10px;">Competitor
+                                                BI’s Clunky Website</h2>
+                                            <p
+                                                style="font-size: 14px; color: #555555; line-height: 1.6;">
+                                                While Competitor BI has a
+                                                visually appealing website, its
+                                                slow load times and outdated
+                                                mobile optimization are driving
+                                                customers away. Optimizing can
+                                                help you attract these
+                                                customers.
+                                            </p>
+                                            <ol
+                                                style="font-size: 14px; color: #555555;">
+                                                <li>A</li>
+                                                <li>A</li>
+                                                <li>A</li>
+                                            </ol>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <p>Example :</p>
+                                            <ol
+                                                style="font-size: 14px; color: #555555; text-align: center; list-style-position: inside; ">
+                                                <li>A</li>
+                                                <li>A</li>
+                                                <li>A</li>
+                                            </ol>
 
-                   
-                    <tr>
-                        <td align="center" style="padding: 20px; font-size: 12px;  background-color: #333333;">
-                           <!-- Main container -->
-                           <table width="100%" cellpadding="0" cellspacing="0" border="0" style=" background-color: #333333;">
-                            <tr>
-                                <td align="center">
-                                    <table width="600" cellpadding="0" cellspacing="0" border="0" style="width: 100%; max-width: 700px; padding: 30px;  background-color: #333333;">
-                                        
-                                        <!-- Section Header -->
-                                        <tr>
-                                            <td align="center" style="padding: 10px 0;">
-                                                <h1 style="color: #007FD8; font-size: 26px; margin: 0;">Why <span style="border-bottom:4px solid #FBC935;">This Matter</span></h1>
-                                            </td>
-                                        </tr>
-                    
-                                        <!-- Text Section -->
-                                        <tr>
-                                            <td align="center" style="padding: 20px 40px;  color: white;">
-                                                <p style="font-size: 14px; line-height: 1.8; margin: 0;">
-                                                    Your business deserves more than just average solutions. It’s time to break through the noise and establish [Client Company Name] as a market leader.
-                                                    Our tailored IT services are designed to turn your challenges into opportunities and drive real, measurable results.
-                                                </p>
-                                            </td>
-                                        </tr>
-                    
-                                        <!-- Highlighted Section -->
-                                        <tr>
-                                            <td align="center" style="padding: 20px;">
-                                                <p style="font-size: 16px; color:#007FD8; font-weight: bold; line-height: 1.8; margin: 0;">
-                                                    Let’s discuss how we can take your business to the next level. How does a quick chat this week sound?
-                                                </p>
-                                            </td>
-                                        </tr>
-                    
-                                        <!-- Subtext Section -->
-                                        <tr>
-                                            <td align="center" style="padding: 20px;">
-                                                <p style="font-size: 14px; color: white; line-height: 1.8; margin: 0;">
-                                                    Looking forward to the possibility of working together to achieve something truly extraordinary.
-                                                </p>
-                                            </td>
-                                        </tr>
-                    
-                                        <!-- Button Section -->
-                                        <tr>
-                                            <td align="center" style="padding: 20px;">
-                                                <a href="#" style="background-color: #F5B700; color: #333333; text-decoration: none; padding: 15px 30px; font-size: 16px; font-weight: bold; border-radius: 35px;">
-                                                    Book A Meeting
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <!-- Footer Section -->
-                <td  style="padding: 30px;">
+                                        </td>
+                                    </tr>
 
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" >
-                                                        <tr>
-                                                            <td  style="padding: 10px;">
-                                                                <p style="font-size: 14px; color: #333333; margin: 0;">
-                                                                    Warmest Regards,<br>
-                                                                    [Your Full Name] <br>
-                                                                    [Your Position] <br>
-                                                                    [Your Contact Information]
-                                                                </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                    
+                                </table>
+                            </td>
+                        </tr>
+
+                        <!-- Call to Action Section -->
+                        <tr>
+                            <td align="center">
+                                <table width="100%" cellpadding="0"
+                                    cellspacing="0" border="0">
+                                    <tr>
+                                        <td align="center">
+                                            <table cellpadding="0"
+                                                cellspacing="0" border="0"
+                                                style=" width: 100%; max-width: 700px;">
+
+                                                <!-- Header Section -->
+                                                <tr>
+                                                    <td align="center">
+                                                        <h1
+                                                            style="color: #007FD8; margin: 0; font-size: 26px;">Our
+                                                            Game-Changing <span
+                                                                style="border-bottom: 4px solid #FBC935;">Solutions</span></h1>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- First Solution Block (SEO Mastery - Image Left) -->
+                                                <tr>
+                                                    <td>
+                                                        <table class="bg"
+                                                            width="100%"
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            border="0" style="
+                                                        height: 275px; background-image: url('https://i.ibb.co.com/16cXmqG/Vector-19.png'); background-size: cover; background-position: center; ">
+                                                            <tr
+                                                                style="margin-bottom: 50px;">
+                                                                <td width="30%"
+                                                                    align="center"
+                                                                    style="padding: 10px;">
+                                                                    <img
+                                                                        src="https://i.ibb.co.com/jJTFRk1/56111faf042535e07c88ca01f9ab540c.jpg"
+                                                                        alt="SEO Icon"
+                                                                        style="border-radius: 50%; width: 155px; height: 155px; margin: -80px -35px 0 0;">
+                                                                </td>
+                                                                <td width="70%"
+                                                                    style="padding-left: 20px;">
+                                                                    <h2
+                                                                        style=" font-size: 20px; margin: 0;">SEO
+                                                                        Mastery</h2>
+                                                                    <p
+                                                                        style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-right: 20px; text-align: justify;">
+                                                                        We'll
+                                                                        propel
+                                                                        your
+                                                                        website
+                                                                        to the
+                                                                        top of
+                                                                        search
+                                                                        engine
+                                                                        results,
+                                                                        ensuring
+                                                                        that
+                                                                        when
+                                                                        potential
+                                                                        customers
+                                                                        search
+                                                                        for
+                                                                        furniture
+                                                                        in Los
+                                                                        Angeles,
+                                                                        they
+                                                                        find
+                                                                        you.
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Second Solution Block (Website Overhaul - Image Right) -->
+                                                <tr>
+                                                    <td>
+                                                        <table class="bg"
+                                                            width="100%"
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            border="0" style="
+                                                        height: 275px; background-image: url('https://i.ibb.co.com/89P35H2/Vector-20.png'); background-size: cover; background-position: center;">
+                                                            <tr
+                                                                style="margin-bottom: 50px;">
+                                                                <td width="70%"
+                                                                    style="padding-right: 20px;">
+                                                                    <h2
+                                                                        style=" font-size: 20px; margin: 0; padding-left: 20px;">Website
+                                                                        Overhaul</h2>
+                                                                    <p
+                                                                        style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-left: 20px; text-align: justify;">
+                                                                        Say
+                                                                        goodbye
+                                                                        to
+                                                                        sluggish
+                                                                        load
+                                                                        times
+                                                                        and
+                                                                        outdated
+                                                                        designs.
+                                                                        We'll
+                                                                        create a
+                                                                        fast,
+                                                                        stunning,
+                                                                        and
+                                                                        user-friendly
+                                                                        site
+                                                                        that
+                                                                        turns
+                                                                        visitors
+                                                                        into
+                                                                        loyal
+                                                                        customers.
+                                                                    </p>
+                                                                </td>
+                                                                <td width="30%"
+                                                                    align="center"
+                                                                    style="padding: 10px;">
+                                                                    <img
+                                                                        src="https://i.ibb.co.com/LY6j52w/56d5d66edd710e393e8417ce22cb395e.jpg"
+                                                                        alt="Website Overhaul Icon"
+                                                                        style="border-radius: 50%; width: 155px; height: 155px; margin: -90px 0 0 -30px;">
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Third Solution Block (Engagement-Driven Marketing - Image Left) -->
+                                                <tr>
+                                                    <td>
+                                                        <table class="bg"
+                                                            width="100%"
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            border="0" style="
+                                                        height: 275px; background-image: url('https://i.ibb.co.com/16cXmqG/Vector-19.png'); background-size: cover; background-position: center;">
+                                                            <tr>
+                                                                <td width="30%"
+                                                                    align="center"
+                                                                    style="padding: 10px;">
+                                                                    <img
+                                                                        src="https://i.ibb.co.com/Mkvz1Rb/8a560ba0703fc4ed13728fa0091e8996.jpgs"
+                                                                        alt="Engagement Icon"
+                                                                        style="border-radius: 50%; width: 155px; height: 155px; margin: -80px -35px 0 0;">
+                                                                </td>
+                                                                <td width="70%"
+                                                                    style="padding-left: 20px;">
+                                                                    <h2
+                                                                        style=" font-size: 20px; margin: 0;">Engagement-Driven
+                                                                        Marketing</h2>
+                                                                    <p
+                                                                        style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-right: 20px; text-align: justify;">
+                                                                        We'll
+                                                                        craft
+                                                                        digital
+                                                                        marketing
+                                                                        campaigns
+                                                                        that
+                                                                        don't
+                                                                        just
+                                                                        reach
+                                                                        your
+                                                                        audience—they
+                                                                        move
+                                                                        them to
+                                                                        act.
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Fourth Solution Block (Stunning Visuals - Image Right) -->
+                                                <tr>
+                                                    <td>
+                                                        <table class="bg"
+                                                            width="100%"
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            border="0" style="
+                                                        height: 275px; background-image: url('https://i.ibb.co.com/89P35H2/Vector-20.png'); background-size: cover; background-position: center;">
+                                                            <tr>
+                                                                <td width="70%"
+                                                                    style="padding-right: 20px;">
+                                                                    <h2
+                                                                        style=" font-size: 20px; margin: 0; padding-left: 20px;">Stunning
+                                                                        Visuals</h2>
+                                                                    <p
+                                                                        style="font-size: 14px; color: #333333; line-height: 1.6; margin: 10px 0; padding-left: 20px; text-align: justify;">
+                                                                        Our
+                                                                        graphics
+                                                                        team
+                                                                        will
+                                                                        elevate
+                                                                        your
+                                                                        product
+                                                                        imagery,
+                                                                        showcasing
+                                                                        your
+                                                                        furniture
+                                                                        in a way
+                                                                        that's
+                                                                        impossible
+                                                                        to
+                                                                        ignore.
+                                                                    </p>
+                                                                </td>
+                                                                <td width="30%"
+                                                                    align="center"
+                                                                    style="padding: 10px;">
+                                                                    <img
+                                                                        src="https://i.ibb.co.com/tpf6Bd1/b23719eafd408d3c9e83120989aaf777.jpg"
+                                                                        alt="Visuals Icon"
+                                                                        style="border-radius: 50%; width: 155px; height: 155px; margin: -90px 0 0 -30px;">
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center"
+                                style="padding: 20px; font-size: 12px;  background-color: #333333;">
+                                <!-- Main container -->
+                                <table width="100%" cellpadding="0"
+                                    cellspacing="0" border="0"
+                                    style=" background-color: #333333;">
+                                    <tr>
+                                        <td align="center">
+                                            <table width="600" cellpadding="0"
+                                                cellspacing="0" border="0"
+                                                style="width: 100%; max-width: 700px; padding: 30px;  background-color: #333333;">
+
+                                                <!-- Section Header -->
+                                                <tr>
+                                                    <td align="center"
+                                                        style="padding: 10px 0;">
+                                                        <h1
+                                                            style="color: #007FD8; font-size: 26px; margin: 0;">Why
+                                                            <span
+                                                                style="border-bottom:4px solid #FBC935;">This
+                                                                Matter</span></h1>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Text Section -->
+                                                <tr>
+                                                    <td align="center"
+                                                        style="padding: 20px 40px;  color: white;">
+                                                        <p
+                                                            style="font-size: 14px; line-height: 1.8; margin: 0;">
+                                                            Your business
+                                                            deserves more than
+                                                            just average
+                                                            solutions. It’s time
+                                                            to break through the
+                                                            noise and establish
+                                                            [Client Company
+                                                            Name] as a market
+                                                            leader.
+                                                            Our tailored IT
+                                                            services are
+                                                            designed to turn
+                                                            your challenges into
+                                                            opportunities and
+                                                            drive real,
+                                                            measurable results.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Highlighted Section -->
+                                                <tr>
+                                                    <td align="center"
+                                                        style="padding: 20px;">
+                                                        <p
+                                                            style="font-size: 16px; color:#007FD8; font-weight: bold; line-height: 1.8; margin: 0;">
+                                                            Let’s discuss how we
+                                                            can take your
+                                                            business to the next
+                                                            level. How does a
+                                                            quick chat this week
+                                                            sound?
+                                                        </p>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Subtext Section -->
+                                                <tr>
+                                                    <td align="center"
+                                                        style="padding: 20px;">
+                                                        <p
+                                                            style="font-size: 14px; color: white; line-height: 1.8; margin: 0;">
+                                                            Looking forward to
+                                                            the possibility of
+                                                            working together to
+                                                            achieve something
+                                                            truly extraordinary.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Button Section -->
+                                                <tr>
+                                                    <td align="center"
+                                                        style="padding: 20px;">
+                                                        <a href="#"
+                                                            style="background-color: #F5B700; color: #333333; text-decoration: none; padding: 15px 30px; font-size: 16px; font-weight: bold; border-radius: 35px;">
+                                                            Book A Meeting
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
             </tr>
-    </table>
-</body>
+            <tr>
+                <!-- Footer Section -->
+                <td style="padding: 30px;">
+
+                    <table width="100%" cellpadding="0" cellspacing="0"
+                        border="0">
+                        <tr>
+                            <td style="padding: 10px;">
+                                <p
+                                    style="font-size: 14px; color: #333333; margin: 0;">
+                                    Warmest Regards,<br>
+                                    [Your Full Name] <br>
+                                    [Your Position] <br>
+                                    [Your Contact Information]
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>
